@@ -34,3 +34,5 @@ sans_id<-mes_ul[,! names(mes_ul) %in% "id"]
 mes_ul_ape<-  sans_id %>%
   group_by(ape) %>% 
   summarise_all(funs(sum))
+
+# on peut ajouter du code
